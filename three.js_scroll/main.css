@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+}
+
+#three-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sections {
+  position: relative;
+}
+
+.section {
+  padding: 5rem;
+  height: 100vh;
+}
+.section h2 {
+  font-size: 7vmin;
+}
+.section:nth-child(odd) {
+  text-align: right;
+}

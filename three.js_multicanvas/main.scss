@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0;
+}
+
+#three-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.view-item {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 100px;
+
+  &:nth-child(even) {
+    .canvas-placeholder {
+      order: 1;
+    }
+  }
+
+  .canvas-placeholder {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+  }
+}

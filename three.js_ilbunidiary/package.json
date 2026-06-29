@@ -1,0 +1,36 @@
+{
+  "name": "three",
+  "version": "1.0.0",
+  "description": "플러그인\r 1. live server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.15.0",
+    "stats.js": "^0.17.0",
+    "three": "^0.178.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^13.0.1",
+    "core-js": "^3.45.1",
+    "cross-env": "^10.0.0",
+    "html-webpack-plugin": "^5.6.4",
+    "source-map-loader": "^5.0.0",
+    "terser-webpack-plugin": "^5.3.14",
+    "vite": "^7.1.12",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
